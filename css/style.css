@@ -1,0 +1,108 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0; }
+  * #footer {
+    background: #4f4f4f;
+    color: white;
+    width: 100%;
+    height: 150px;
+    text-align: center; }
+    * #footer .footer-box {
+      display: inline-block;
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+      margin-right: 10px;
+      margin-left: 10px; }
+      * #footer .footer-box .fa {
+        margin-right: 5px; }
+
+#header {
+  background: url("../img/bg-1.jpg");
+  background-size: cover;
+  height: 45%;
+  color: white; }
+  #header h1 {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 300px;
+    margin-top: 35px; }
+  #header p {
+    display: inline-block;
+    margin-top: 35px; }
+  #header #header-content {
+    positio: absolute;
+    bottom: 0; }
+  #header #saying {
+    display: block;
+    font-size: 25;
+    margin-left: 230;
+    margin-top: 90; }
+  #header #nav {
+    display: inline-block;
+    float: right;
+    positio: absolute;
+    bottom: 0;
+    margin-right: 20px; }
+    #header #nav a {
+      color: white; }
+    #header #nav li {
+      display: inline-block;
+      padding: 35px; }
+      #header #nav li:after {
+        content: "";
+        display: block;
+        margin: auto;
+        height: 1px;
+        width: 0px;
+        background: transparent;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.26);
+        transition: width 0.3s ease, background-color 0.3s ease; }
+      #header #nav li:hover:after {
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.26); }
+    #header #nav .active {
+      font-weight: bold; }
+
+#main #perks {
+  text-align: center;
+  margin-top: 50px; }
+  #main #perks .perks {
+    text-align: center;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px; }
+  #main #perks i {
+    font-size: 40; }
+#main #cta-order {
+  border: 2px solid #5ce963;
+  border-radius: 5px;
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+  font-size: 23;
+  color: #5ce963;
+  margin: auto;
+  margin-top: 100px;
+  transition: all 0.5s; }
+#main #cta-order:hover {
+  background: #5ce963;
+  transition: all 0.5s;
+  color: white; }
+#main .expl {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: inline-block; }
+  #main .expl .expl-text {
+    line-height: 30px; }
+  #main .expl .expl-h {
+    font-size: 24;
+    margin-bottom: 3px;
+    display: inline-block; }
+#main #portfolio {
+  text-align: center;
+  font-size: 20;
+  margin-bottom: 300px; }
+
+/*# sourceMappingURL=style.css.map */
